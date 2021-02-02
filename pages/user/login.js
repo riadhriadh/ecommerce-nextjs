@@ -36,6 +36,7 @@ export default function Login() {
         await router.push('/');
       }
     } catch (error) {
+     
       setMsgError(getErrorMessage(error));
     }
   }
