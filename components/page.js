@@ -7,7 +7,7 @@ export default function Page({ title, description, children }) {
   return (
     <PageContainer title={title} description={description}>
       <Header />
-      <Carousel></Carousel>
+      {/* <Carousel></Carousel> */}
 
       <div className="content">{children}</div>
 
