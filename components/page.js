@@ -1,11 +1,13 @@
 import PageContainer from './page-container';
 import Header from './header';
 import Footer from './footer';
+import Carousel from './carousel';
 
 export default function Page({ title, description, children }) {
   return (
     <PageContainer title={title} description={description}>
       <Header />
+      <Carousel></Carousel>
 
       <div className="content">{children}</div>
 
