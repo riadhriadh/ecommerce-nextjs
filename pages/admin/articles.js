@@ -32,8 +32,8 @@ export default function articles() {
       if (!data?.products || error)
       return (
         <ProductsGrid>
-            {JSON.stringify(offlineProducts)}
-          {/* {offlineProducts.map((product) => (
+            
+          {offlineProducts.map((product) => (
             <ProductItem
               key={product.id}
               id={product.id}
@@ -42,7 +42,7 @@ export default function articles() {
               img_url={product.img_url}
               price={product.price}
             />
-          ))} */}
+          ))}
         </ProductsGrid>
       );
       return (
