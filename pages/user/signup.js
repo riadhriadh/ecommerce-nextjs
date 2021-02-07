@@ -48,7 +48,7 @@ export default function SignUp() {
   }
 
   return (
-    <PageContainer title="Quantum E-commerce - Sign Up">
+    <PageContainer title="Tunisie boutique E-commerce - Sign Up">
       <FormContainer>
         <form onSubmit={handleSubmit}>
           <h3 className="formTitle">sign up</h3>

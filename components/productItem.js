@@ -70,6 +70,7 @@ export default function ProductSection({ id, name, rating, img_url, price }) {
           height: 100%;
           padding: 24px;
           background: white;
+          width: 100%;
           box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
           border-radius: 6px;
         }
